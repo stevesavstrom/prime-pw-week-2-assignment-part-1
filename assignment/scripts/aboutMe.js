@@ -50,7 +50,7 @@ else {
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if ( luckyNumber == 2 && adventurous ) {
+if ( luckyNumber === 2 && adventurous ) {
   console.log('Roll the dice!');
 }
 
@@ -94,9 +94,8 @@ switch (friendsPets > pets){
   case false:
   mostPets = pets;
 }
-console.log(mostPets);
+console.log(mostPets); // Learned from examples from https://www.w3schools.com/js/js_switch.asp
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let weekendPlans = adventurous === true ? 'Adventures are great!' : 'How about we stay home?';
-
-console.log(weekendPlans);
+console.log(weekendPlans); // Learned from examples from https://www.javascripttutorial.net/javascript-ternary-operator/
